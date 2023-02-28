@@ -4,7 +4,7 @@
 ***
 NFS Server 
 ```
-$ docker volume create nfsvol
+ docker volume create nfsvol
 
 $ docker network create --driver=bridge --subnet=10.255.255.0/24 --ip-range=10.255.255.0/24 --gateway=10.255.255.10 nfsnet
 
